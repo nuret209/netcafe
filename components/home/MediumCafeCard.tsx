@@ -32,7 +32,7 @@ const MediumCafeCard = (props: MediumCafeCardProps) => {
             {type}
           </div>)}
         </div>
-        <div className='absolute bottom-4 right-4 text-xs flex p-1 bg-white rounded'>
+        <div className='absolute bottom-4 right-4 text-xs flex p-1 bg-white rounded cursor-pointer'>
           <RiBookmarkLine size={16} />
         </div>
       </div>
