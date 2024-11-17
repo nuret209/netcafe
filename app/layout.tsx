@@ -1,6 +1,8 @@
 "use client"
 import "./globals.css";
 import { Lexend } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import React from "react";
 const font = Lexend({ weight: ["400", "500", "700"], subsets: ["latin"] })
 export default function RootLayout({
@@ -18,6 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
