@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 };
 export default function Home() {
   return (
-    <div className="h-full md:pl-[104px] p-2">
+    <div className="h-full md:pl-[104px]">
       <NavMenu activePage={0} />
       <MainPage />
     </div>
