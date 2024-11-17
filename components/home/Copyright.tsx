@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 const Copyright = () => {
     return (
-        <div className='flex justify-between mb-20 md:mb-10 items-center'>
+        <div className='flex justify-between mb-20 md:mb-10 mt-12 items-center'>
             <span className='flex gap-2 mt-[-4px]'>
                 <Image src={"/images/sitelogo.svg"} alt='logo' width={24} height={24} />
                 wagmigg
