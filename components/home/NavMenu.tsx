@@ -22,7 +22,7 @@ interface MenuProps {
 const NavMenu = ({ activePage }: MenuProps) => {
 
     return (
-        <nav className='border fixed z-40 border-[#ebebeb] bg-white md:w-[88px] left-0 md:top-2 bottom-0 md:left-2 md:h-[calc(100%-16px)]  w-full rounded-2xl flex md:flex-col items-center justify-center md:justify-between md:py-8 gap-0 md:gap-4 md:px-0 p-3'>
+        <nav className='border fixed z-40 border-[#ebebeb] bg-white md:w-[88px] left-0 md:top-2 bottom-0 md:left-2 md:h-[calc(100%-16px)]  w-full rounded-2xl flex md:flex-col items-center justify-center md:justify-between md:py-8 gap-4 md:gap-0 md:px-0 p-3'>
             <div className='hidden md:block'>
                 <Image src="/images/sitelogo.svg" height={32} width={32} alt='logo' />
             </div>
