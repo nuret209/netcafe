@@ -3,7 +3,7 @@ import React from 'react'
 import { CiImageOn } from "react-icons/ci";
 import { SlLocationPin } from "react-icons/sl";
 import { GoDotFill } from "react-icons/go";
-import { RiComputerLine } from "react-icons/ri";
+import { RiComputerLine, RiBookmarkLine } from "react-icons/ri";
 import { TbBadgeVr, TbBrandAppleArcade } from "react-icons/tb";
 import { LiaPlaystation } from "react-icons/lia";
 
@@ -32,6 +32,9 @@ const MediumCafeCard = (props: MediumCafeCardProps) => {
             {type}
           </div>)}
         </div>
+        <div className='absolute bottom-4 right-4 text-xs flex p-1 bg-white rounded'>
+          <RiBookmarkLine size={16} />
+        </div>
       </div>
       <h4 className='text-[#191A20]'>{props.name}</h4>
       <h3 className='flex items-center text-xs gap-1'>
@@ -46,6 +49,7 @@ const MediumCafeCard = (props: MediumCafeCardProps) => {
       <h4 className='text-xs'>
         {props.description}
       </h4>
+
       <h3 className='text-xs flex gap-2'>
         {props.numberofComputers != 0 && <span className='flex items-center gap-1'>
           <RiComputerLine size={16} /> {props.numberofComputers} PC
