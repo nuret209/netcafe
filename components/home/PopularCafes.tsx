@@ -8,7 +8,7 @@ const PopularCafes = () => {
       <div className='flex flex-wrap gap-4'>
         {Cafes.filter(cafe => cafe.popularNow).map((cafe, i) =>
           <MediumCafeCard
-            img={cafe.mainImage}
+            img={cafe.img}
             types={cafe.types}
             description={cafe.description}
             name={cafe.name}

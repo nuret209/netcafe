@@ -1,5 +1,6 @@
 
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 import { SlLocationPin } from "react-icons/sl";
 
@@ -14,7 +15,7 @@ interface HugeCafeCard {
 }    
 const HugeCafeCard = (props: HugeCafeCard) => {
     return (
-        <div  style={{backgroundImage:`url(/images/${props.mainImage})`}} className={`bg-cover rounded-3xl relative flex w-full md:w-[calc(50%-16px)]
+        <Link href={"/cafe/"+props.name.toLowerCase().replace(/\s/g, '')} style={{backgroundImage:`url(/images/${props.mainImage})`}} className={`bg-cover rounded-3xl relative flex w-full md:w-[calc(50%-16px)]
         h-[313px] pl-4 flex-col justify-end text-white pb-6 hover:pb-10 transition-all
         [box-shadow:0px_-145px_78px_-81px_rgba(0,0,0,0.8)_inset]
         `}>
@@ -28,7 +29,7 @@ const HugeCafeCard = (props: HugeCafeCard) => {
             </div>
            <h2 className='text-[22px]'>{props.name}</h2>
            <h4 className='text-sm'>{props.description}</h4>
-        </div>
+        </Link>
     )
 }
 

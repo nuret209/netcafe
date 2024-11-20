@@ -1,21 +1,21 @@
-"use client"
 import "./globals.css";
 import { Lexend } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next"
-
+import { Metadata } from "next";
 import React from "react";
+export const metadata: Metadata = {
+  title: "Shop - wagmigg",
+  description: "An app",
+  icons: ["/images/favicon.ico"]
+};
+
+
 const font = Lexend({ weight: ["400", "500", "700"], subsets: ["latin"] })
 export default function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  React.useEffect(() => {
-    const elements = document.querySelectorAll('[cz-shortcut-listen="true"]');
-    elements.forEach((el) => {
-      el.setAttribute('cz-shortcut-listen', 'false');
-    });
-  }, []);
   return (
     <html lang="en">
       <body className={font.className}>

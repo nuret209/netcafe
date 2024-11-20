@@ -3,8 +3,13 @@
         "name": "kardesler pide",
         "location": {
             "city": "Istanbul",
-            "county": "Bayrampasa"
+            "county": "Bayrampasa",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "description": "Dunyanin en guzel internet cafesi",
         "numberofComputers": 50,
         "numberofPlaystations": 7,
@@ -12,7 +17,7 @@
         "numberofVRs": 0,
         "time": "08:00 - 21.00",
         "price": "10-35",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -30,8 +35,14 @@
         "name": "NetCafe wagmigg",
         "location": {
             "city": "Antalya",
-            "county": "Kemer"
+            "county": "Kemer",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
+     
         "description": "NetCafe WagmiGg, en İstanbul'da en yakın ve en güzel internet cafesi.",
         "numberofComputers": 20,
         "numberofPlaystations": 5,
@@ -39,7 +50,7 @@
         "numberofVRs": 0,
         "time": "08:00 - 22:00",
         "price": "10-35",
-        "mainImage": "cafe2.png",
+        "img": "cafe2.png",
         "images": [
             "cafe.jpg",
             "cafe3.png",
@@ -57,8 +68,14 @@
         "name": "Cyber Zone",
         "location": {
             "city": "Izmir",
-            "county": "Konak"
+            "county": "Konak",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
+     
         "description": "Izmir'in en modern ve teknolojik internet kafesi",
         "numberofComputers": 40,
         "numberofPlaystations": 8,
@@ -66,7 +83,7 @@
         "numberofVRs": 3,
         "time": "09:00 - 23:00",
         "price": "15-50",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -77,7 +94,7 @@
             "Internet",
             "Playstation",
             "VR",
-            "Simulation"
+            "Simulasyon"
         ],
         "featured": false,
         "popularNow": true
@@ -86,8 +103,14 @@
         "name": "Gamer's Paradise",
         "location": {
             "city": "Ankara",
-            "county": "Çankaya"
+            "county": "Çankaya",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
+     
         "description": "Başkentin en büyük ve en donanımlı oyun merkezi",
         "numberofComputers": 60,
         "numberofPlaystations": 10,
@@ -95,7 +118,7 @@
         "numberofVRs": 5,
         "time": "10:00 - 02:00",
         "price": "20-80",
-        "mainImage": "cafe4.png",
+        "img": "cafe4.png",
         "images": [
             "cafe2.png",
             "cafe.jpg",
@@ -106,7 +129,7 @@
             "Internet",
             "Playstation",
             "VR",
-            "Simulation"
+            "Simulasyon"
         ],
         "featured": true,
         "popularNow": false
@@ -115,8 +138,14 @@
         "name": "CoffeeNet",
         "location": {
             "city": "Bursa",
-            "county": "Nilüfer"
+            "county": "Nilüfer",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
+     
         "description": "Kahve ve internet keyfi bir arada",
         "numberofComputers": 25,
         "numberofPlaystations": 0,
@@ -124,7 +153,7 @@
         "numberofVRs": 0,
         "time": "07:00 - 23:00",
         "price": "5-20",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -142,8 +171,14 @@
         "name": "TechHub Cafe",
         "location": {
             "city": "Eskişehir",
-            "county": "Tepebaşı"
+            "county": "Tepebaşı",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
+     
         "description": "Öğrencilerin favorisi, hızlı internet ve uygun fiyatlar",
         "numberofComputers": 35,
         "numberofPlaystations": 6,
@@ -151,7 +186,7 @@
         "numberofVRs": 2,
         "time": "08:00 - 00:00",
         "price": "8-30",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -170,16 +205,21 @@
         "name": "Pixel Paradise",
         "location": {
             "city": "Adana",
-            "county": "Seyhan"
+            "county": "Seyhan",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Retro oyunlardan en yeni teknolojilere kadar her şey burada",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 45,
         "numberofPlaystations": 8,
         "numberofSimulations": 0,
         "numberofVRs": 4,
         "time": "11:00 - 03:00",
         "price": "15-60",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -198,16 +238,21 @@
         "name": "NetWork Lounge",
         "location": {
             "city": "Trabzon",
-            "county": "Ortahisar"
+            "county": "Ortahisar",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Karadeniz'in en konforlu internet kafesi",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 30,
         "numberofPlaystations": 4,
         "numberofSimulations": 0,
         "numberofVRs": 0,
         "time": "09:00 - 23:00",
         "price": "10-40",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -225,16 +270,21 @@
         "name": "Digital Den",
         "location": {
             "city": "Gaziantep",
-            "county": "Şahinbey"
+            "county": "Şahinbey",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "7/24 açık, her zaman hizmetinizde",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 55,
         "numberofPlaystations": 9,
         "numberofSimulations": 2,
         "numberofVRs": 3,
         "time": "00:00 - 24:00",
         "price": "12-45",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -254,16 +304,21 @@
         "name": "Gamer's Retreat",
         "location": {
             "city": "Kayseri",
-            "county": "Melikgazi"
+            "county": "Melikgazi",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Profesyonel oyuncuların tercihi",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 50,
         "numberofPlaystations": 10,
         "numberofSimulations": 5,
         "numberofVRs": 6,
         "time": "10:00 - 02:00",
         "price": "20-75",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -274,7 +329,7 @@
             "Internet",
             "Playstation",
             "VR",
-            "Simulation",
+            "Simulasyon",
             "E-Sports"
         ],
         "featured": false,
@@ -284,16 +339,21 @@
         "name": "Byte Bistro",
         "location": {
             "city": "Konya",
-            "county": "Selçuklu"
+            "county": "Selçuklu",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Yemek ve oyun bir arada",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 40,
         "numberofPlaystations": 6,
         "numberofSimulations": 1,
         "numberofVRs": 2,
         "time": "11:00 - 23:00",
         "price": "15-55",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -313,16 +373,21 @@
         "name": "CyberSpot",
         "location": {
             "city": "Mersin",
-            "county": "Yenişehir"
+            "county": "Yenişehir",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Akdeniz'in en cool internet kafesi",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 35,
         "numberofPlaystations": 5,
         "numberofSimulations": 1,
         "numberofVRs": 2,
         "time": "09:00 - 00:00",
         "price": "10-40",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -341,16 +406,21 @@
         "name": "Tech Oasis",
         "location": {
             "city": "Diyarbakır",
-            "county": "Bağlar"
+            "county": "Bağlar",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Güneydoğu'nun teknoloji vahası",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 45,
         "numberofPlaystations": 7,
         "numberofSimulations": 2,
         "numberofVRs": 3,
         "time": "10:00 - 01:00",
         "price": "8-35",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -361,7 +431,7 @@
             "Internet",
             "Playstation",
             "VR",
-            "Simulation"
+            "Simulasyon"
         ],
         "featured": false,
         "popularNow": false
@@ -370,16 +440,21 @@
         "name": "Matrix Gaming",
         "location": {
             "city": "Samsun",
-            "county": "İlkadım"
+            "county": "İlkadım",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Karadeniz'in en büyük oyun merkezi",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 70,
         "numberofPlaystations": 12,
         "numberofSimulations": 0,
         "numberofVRs": 5,
         "time": "09:00 - 03:00",
         "price": "15-65",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -399,16 +474,21 @@
         "name": "Pixel Pub",
         "location": {
             "city": "Denizli",
-            "county": "Pamukkale"
+            "county": "Pamukkale",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Oyun oyna, içeceğini yudumlа",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 25,
         "numberofPlaystations": 4,
         "numberofSimulations": 0,
         "numberofVRs": 1,
         "time": "14:00 - 02:00",
         "price": "20-70",
-        "mainImage": "cafepng",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -427,16 +507,21 @@
         "name": "Neon Nexus",
         "location": {
             "city": "Sakarya",
-            "county": "Serdivan"
+            "county": "Serdivan",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Retro ve modern oyun deneyimi bir arada",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 40,
         "numberofPlaystations": 6,
         "numberofSimulations": 2,
         "numberofVRs": 3,
         "time": "11:00 - 01:00",
         "price": "12-50",
-        "mainImage": "cafe.jpg",
+        "img": "cafe.jpg",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -456,16 +541,21 @@
         "name": "E-Sports Arena",
         "location": {
             "city": "Muğla",
-            "county": "Bodrum"
+            "county": "Bodrum",
+            "neighbourhood": "Ataturk",
+            "street":"Kemalpaşa",
+            "zip":"12/1"
         },
         "description": "Tatil beldесinde profesyonel oyun deneyimi",
+        "videoLink":"https://www.youtube.com/embed/S63Lc6tTKFY",
+        "mapLink":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1822.3339335389387!2d28.839128301142246!3d41.02158421958982!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa54ed0a057c3%3A0xcf72cc1413c02a94!2sA%20Plus%20Hastanesi!5e0!3m2!1sen!2str!4v1732134768243!5m2!1sen!2str",
         "numberofComputers": 60,
         "numberofPlaystations": 10,
-        "numberofSimulations": 3,
+        "numberofSimulations": 0,
         "numberofVRs": 4,
         "time": "10:00 - 04:00",
         "price": "25-100",
-        "mainImage": "cafe5.png",
+        "img": "cafe5.png",
         "images": [
             "cafe2.png",
             "cafe3.png",
@@ -476,7 +566,6 @@
             "Internet",
             "Playstation",
             "VR",
-            "Simulation",
             "E-Sports"
         ],
         "featured": true,
