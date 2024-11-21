@@ -26,7 +26,7 @@ interface MediumCafeCardProps {
 const MediumCafeCard = (props: MediumCafeCardProps) => {
   return (
 
-    <Link href={"/cafe/"+props.name.toLowerCase().replace(/\s/g, '')} className='flex flex-col w-full  md:w-[calc(50%-16px)] lg:w-[calc(33.3333%-16px)] gap-4 overflow-hidden text-[#47484D] '>
+    <Link href={"/cafe/"+props.name.toLowerCase().replace(/\s/g, '')} className='flex flex-col w-full  md:w-[calc(50%-16px)] lg:w-[calc(33.3333%-16px)] min-[2000px]:w-[calc(25%-16px)] min-[2500px]:w-[calc(20%-16px)] gap-4 overflow-hidden text-[#47484D] '>
       <div className="w-full h-[243px] relative overflow-hidden rounded-xl text-[#191A20]">
         <Image className='w-full hover:scale-110 transition-all duration-300 min-h-[247px]' src={`/images/${props.img}`} width={320} height={247} alt='images' />
         <div className='absolute bottom-4 left-4 text-xs flex gap-1 '>

@@ -117,12 +117,12 @@ const SearchTabs = () => {
     }
     return (
         <>
-            <div onClick={() => setMobileActive(true)} className='md:p-4  md:hidden absolute top-4 right-4 z[999] border border-[#f4f4f4] flex items-center py-[14px] px-4 rounded-lg gap-2 text-[#aaa]'>
+            <div onClick={() => setMobileActive(true)} className='md:p-4  md:hidden absolute top-4 right-4 z-[2] border border-[#ebebeb] flex items-center py-[14px] px-4 rounded-lg gap-2 text-[#aaa]'>
                 <RiFilter3Line size={20} />
                 <span>Filter</span>
             </div>
-            <div ref={filterRef} className={`${mobileActive ? "visible" : "invisible"} min-w-[292px] max-w-[292px] max-h-full md:max-h-[calc(100vh-16px)] absolute md:visible top-0 right-0 bg-white z-[9999] md:relative md:block  md:border md:my-2 
-            md:border-[#ebebeb] rounded-xl overflow-auto md:overflow-hidden transition-all before:content[""] before:bg-black/50 before:z-[101] before:w-[calc(100%-292px)] before:md:hidden before:h-full before:fixed before:top-0 before:left-0 `}>
+            <div ref={filterRef} className={`${mobileActive ? "visible" : "invisible"} min-w-[292px] max-w-[292px] max-h-full md:max-h-[calc(100vh-16px)] absolute md:visible top-0 right-0 bg-white z-[3] md:relative md:block  md:border md:my-2 
+            md:border-[#ebebeb] rounded-xl overflow-auto md:overflow-hidden transition-all before:content[""] before:bg-black/50 before:z-[5] before:w-[calc(100%-292px)] before:md:hidden before:h-full before:fixed before:top-0 before:left-0 `}>
 
                 <span className='text-[22px] w-full p-4 border-b flex justify-between items-center'>
                     Filters
@@ -147,7 +147,7 @@ const SearchTabs = () => {
                             {multiSelectinPages.map((tab, i) =>
                                 <div key={i}
                                     onClick={() => filterSet(tab.name, "Tür")}
-                                    className={`border md:border-[#ebebebsetParentCaregoryex-col inline-flex  cursor-pointer p-3 rounded-lg ${type.includes(tab.name) ? "bg-[#191a20] text-white" : "text-[#191a20]"}`} >
+                                    className={`border md:border-[#ebebebsetParentCaregoryex-col inline-flex  cursor-pointer p-3 gap-1 rounded-lg ${type.includes(tab.name) ? "bg-[#191a20] text-white" : "text-[#191a20]"}`} >
                                     {<tab.icon />}
                                     <span className='text-xs'>{tab.name}</span>
                                 </div>

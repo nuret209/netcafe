@@ -36,13 +36,13 @@ const CafeDetail = (props: CafeProps) => {
   }
 
   return (
-    <div className='flex flex-col lg:flex-row  gap-3 w-full min-h-full'>
+    <div className='flex flex-col lg:flex-row  gap-[22px] w-full min-h-full'>
       <div className='md:block hidden w-full'>
         <CafeDetailImage />
       </div>
       <div className='w-full'>
         <div className='w-full flex justify-between'>
-          <div className='flex gap-3 '>
+          <div className='flex gap-1 md:gap-3 '>
             {props.types.map((type, i) =>
               <div key={i} className='rounded-lg text-xs border border-[#191A20] p-1 px-2 text-gray-500'>
                 {type}

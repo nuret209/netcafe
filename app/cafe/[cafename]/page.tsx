@@ -47,7 +47,7 @@ const Page = ({ params }: { params: Promise<{ cafename: string }> }) => {
   return (
     <div className='md:pl-[100px]'>
       <NavMenu activePage={999} />
-      <div className='md:border-[#ebebeb] md:border  md:m-2  rounded-xl flex flex-col items-center px-8 py-14'>
+      <div className='md:border-[#ebebeb] md:border  md:m-2  rounded-xl flex flex-col items-center  pb-24 md:pb-8 p-8'>
         <div className='w-[min(100%,1200px)] flex flex-col gap-14'>
           {cafe ? (
             <>

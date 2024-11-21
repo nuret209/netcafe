@@ -8,12 +8,12 @@ const ListFilteredTabs = () => {
   const { minPC, minPS, minVR, minSimulation, city, type, popular } = React.useContext(SearchFilterContext)
   const [search, setSearch] = useState("");
   return (
-    <div className='md:border-[#ebebeb] md:border  md:m-2 p-4 w-full max-w-full rounded-xl'>
-      <div className='mb-4 border  relative rounded-lg w-2/3 md:w-full'>
-        <RiSearch2Line className='absolute top-2 left-2' size={32} />
-        <input value={search} onChange={e => setSearch(e.target.value)} className='w-full outline-none rounded-lg p-3 pl-14 text-lg' placeholder='Search...' type='text' />
+    <div className='md:border-[#ebebeb] md:border  md:m-2 py-4  w-full max-w-full rounded-xl'>
+      <div className='mb-4 border  relative mx-4 rounded-lg w-[61%] md:w-[calc(100%-32px)] '>
+        <RiSearch2Line className='absolute top-[10px] right-5 text-[#aaa]' size={32}  />
+        <input value={search} onChange={e => setSearch(e.target.value)} className='w-full outline-none rounded-lg p-3 pl-6 pr-14  text-lg' placeholder='Search...' type='text' />
       </div>
-      <div className='flex flex-wrap gap-4   md:ml-2  box-border rounded-xl w-full   max-h-[calc(100vh-122px)] overflow-auto'>
+      <div className='flex flex-wrap gap-4    box-border rounded-xl w-full  max-h-[calc(100vh-122px)] px-4 md:pr-0 overflow-auto'>
         {Cafe.map((cafe, i) =>
           (((search == "" || cafe.name.toLowerCase().includes(search.toLowerCase())) &&
             (popular ? cafe.popularNow : true) &&
