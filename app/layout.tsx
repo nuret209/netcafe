@@ -4,7 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Metadata } from "next";
 import React from "react";
 export const metadata: Metadata = {
-  title: "wagmigg Internet Cafe",
+  title: "wagmigg - Internet Cafe",
   icons: ["/images/favicon.ico"]
 };
 
