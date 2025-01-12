@@ -3,7 +3,7 @@ import { Lexend } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Metadata } from "next";
 import React from "react";
-import { ClerkProvider} from "@clerk/nextjs";
+import { ClerkProvider } from "@clerk/nextjs";
 export const metadata: Metadata = {
   title: "Shop - wagmigg",
   description: "An app",
@@ -21,7 +21,7 @@ export default function RootLayout({
 
     <html lang="en">
       <body className={font.className}>
-          <ClerkProvider>
+        <ClerkProvider publishableKey={process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY}>
           {children}
           <SpeedInsights />
         </ClerkProvider>
