@@ -1,0 +1,37 @@
+// This is your Prisma schema file
+// Learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Cafe {
+  id                   String    @id @default(uuid())
+  name                 String    @unique
+  slug                 String
+  video                String?
+  map                  String?
+  description          String
+  numberOfComputers    Int       @default(0)
+  numberOfPlaystations Int       @default(0)
+  numberOfSimulations  Int       @default(0)
+  numberOfVRs          Int       @default(0)
+  openTime             String
+  price                String
+  img                  String?
+  images               String[]
+  types                String[]
+  locationCity      String
+  locationCounty    String
+  locationStreet      String
+  locationNeighbourhood String
+  locationZip         String
+  featured             Boolean   @default(false)
+  popularNow           Boolean   @default(false)
+}

@@ -4,7 +4,7 @@ import MediumCafeCard from './MediumCafeCard'
 const Similar = ({ types, name }: { types: string[], name: string }) => {
     return (
         <div>
-            <span className='text-xs'>SIMILAR PROPERTIES</span>
+            <span className='text-label-xs'>SIMILAR PROPERTIES</span>
             <div className='flex flex-col md:flex-row mt-5 gap-4'>
 
                 {Cafes.filter(cafe => cafe.types[1] == types[1] && cafe.name != name).map((cafe, i) =>

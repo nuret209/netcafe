@@ -19,7 +19,7 @@ const HugeCafeCard = (props: HugeCafeCard) => {
         h-[313px] pl-4 flex-col justify-end text-white pb-6 hover:pb-10 transition-all
         [box-shadow:0px_-145px_78px_-81px_rgba(0,0,0,0.8)_inset]
         `}>
-            <div className="p-3 rounded-xl text-xs text-[#191A20] gap-2 bg-white absolute top-4 left-4 flex items-center">
+            <div className="p-3 rounded-xl text-label-xs text-[#191A20] gap-2 bg-white absolute top-4 left-4 flex items-center">
                 <SlLocationPin size={20} />
                 <h5>{props.locationCity}</h5>
             </div>
@@ -28,7 +28,7 @@ const HugeCafeCard = (props: HugeCafeCard) => {
                 {props.images.length > 3 && <span className=' text-[#191A20] absolute right-3 top-2 z-30'>+{props.images.length - 3}</span>}
             </div>
            <h2 className='text-[22px]'>{props.name}</h2>
-           <h4 className='text-sm'>{props.description}</h4>
+           <h4 className='text-label-sm'>{props.description}</h4>
         </Link>
     )
 }

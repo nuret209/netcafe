@@ -3,6 +3,7 @@ import { Lexend } from "next/font/google";
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Metadata } from "next";
 import React from "react";
+import { ClerkProvider} from "@clerk/nextjs";
 export const metadata: Metadata = {
   title: "Shop - wagmigg",
   description: "An app",
@@ -17,10 +18,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
+
     <html lang="en">
       <body className={font.className}>
-        {children}
-        <SpeedInsights />
+          <ClerkProvider>
+          {children}
+          <SpeedInsights />
+        </ClerkProvider>
       </body>
     </html>
   );

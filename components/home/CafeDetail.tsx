@@ -1,9 +1,11 @@
 import React from 'react'
+
 import { RiBookmarkLine, RiComputerLine } from 'react-icons/ri';
 import { SlLocationPin } from 'react-icons/sl';
 import { LiaPlaystation } from 'react-icons/lia';
 import { TbBadgeVr, TbBrandAppleArcade } from 'react-icons/tb';
-interface CafeProps {
+
+export interface CafeProps {
   name: string;
   locationCity: string;
   images: string[];
@@ -23,7 +25,6 @@ interface CafeProps {
 }
 
 const CafeDetail = (props: CafeProps) => {
-
   const CafeDetailImage = () => {
     return (
       <div className='flex flex-wrap   gap-2  w-full'>
@@ -44,7 +45,7 @@ const CafeDetail = (props: CafeProps) => {
         <div className='w-full flex justify-between'>
           <div className='flex gap-1 md:gap-3 '>
             {props.types.map((type, i) =>
-              <div key={i} className='rounded-lg text-xs border border-[#191A20] p-1 px-2 text-gray-500'>
+              <div key={i} className='rounded-lg text-label-xs border border-[#191A20] p-1 px-2 text-gray-500'>
                 {type}
               </div>
             )}
@@ -66,7 +67,7 @@ const CafeDetail = (props: CafeProps) => {
           <span>{props.locationCity},  </span><span>{props.locationCounty}</span>
         </div>
         <div>
-          <h3 className='text-xs md:text-sm flex  gap-2 mt-2'>
+          <h3 className='text-label-xs md:text-label-sm flex gap-2 mt-2'>
             {props.numberofComputers != 0 && <span className='flex items-center gap-1'>
               <RiComputerLine size={16} /> {props.numberofComputers} PC
             </span>}
@@ -85,30 +86,30 @@ const CafeDetail = (props: CafeProps) => {
           <CafeDetailImage />
         </div>
         <div className='flex flex-col mt-5 gap-4'>
-          <span className='text-xs'>ACIKLAMA</span>
-          <p className='text-sm'> {props.description}</p>
+          <span className='text-label-xs'>ACIKLAMA</span>
+          <p className='text-label-sm'> {props.description}</p>
         </div>
         <div className='flex flex-col mt-5 gap-4'>
-          <span className='text-xs'>ADRES</span>
-          <div className='grid grid-cols-[auto_auto]  gap-y-3 text-sm'>
+          <span className='text-label-xs'>ADRES</span>
+          <div className='grid grid-cols-[auto_auto]  gap-y-3 text-label-sm'>
             <div className=''>
-              <span className='border-b text-xs  text-[#aaa] pb-2'>Sokak</span>
+              <span className='border-b text-label-xs  text-[#aaa] pb-2'>Sokak</span>
               <h2 className='mt-3 '>{props.locationStreet}</h2>
             </div>
             <div className=''>
-              <span className='border-b text-xs text-[#aaa] pb-2'>Mahalle</span>
+              <span className='border-b text-label-xs text-[#aaa] pb-2'>Mahalle</span>
               <h2 className='mt-3'>{props.locationNeighbourhood}</h2>
             </div>
             <div className=''>
-              <span className='border-b text-xs text-[#aaa] pb-2'>No</span>
+              <span className='border-b text-label-xs text-[#aaa] pb-2'>No</span>
               <h2 className='mt-3'>{props.locationZip}</h2>
             </div>
             <div className=''>
-              <span className='border-b text-xs text-[#aaa] pb-2'>İlçe</span>
+              <span className='border-b text-label-xs text-[#aaa] pb-2'>İlçe</span>
               <h2 className='mt-3'>{props.locationCounty}</h2>
             </div>
             <div className=''>
-              <span className='border-b text-xs text-[#aaa] pb-2'>Şehir</span>
+              <span className='border-b text-label-xs text-[#aaa] pb-2'>Şehir</span>
               <h2 className='mt-3'>{props.locationCity}</h2>
             </div>
           </div>

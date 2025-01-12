@@ -38,7 +38,7 @@ const Tab = ({ text, icon, parentCategory }: { text: string, icon: React.ReactNo
             onClick={handleClick}
             className={`border md:border-[#ebebebsetParentCaregoryex-col inline-flex  cursor-pointer p-3 rounded-lg ${active ? "bg-[#191a20] text-white" : "text-[#191a20]"}`} >
             {icon}
-            <span className='text-xs'>{text}</span>
+            <span className='text-label-xs'>{text}</span>
         </div>
     )
 }

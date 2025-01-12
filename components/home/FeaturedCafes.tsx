@@ -4,7 +4,7 @@ import HugeCafeCard from './HugeCafeCard'
 const FeaturedCafes = () => {
   return (
     <div>
-      <h3 className='text-[#191A20] text-xs mb-6'>FEATURED PROPERTIES</h3>
+      <h3 className='text-[#191A20] text-label-xs mb-6'>FEATURED PROPERTIES</h3>
       <div className='flex flex-wrap gap-4'>
         {Cafes.filter(cafe => cafe.featured).map((cafe, i) =>
           <HugeCafeCard key={i} name={cafe.name} mainImage={cafe.img} images={cafe.images} description={cafe.description} locationCity={cafe.location.city} />

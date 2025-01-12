@@ -16,7 +16,7 @@ const TopComponent = () => {
                     <span>Hi</span>
                     <span className={EmojiFont.className + " ml-1"}>👋</span>
                 </div>
-                <div className='text-xs text-[#A3A3A6]  flex gap-4 mt-6 md:mt-0'>
+                <div className='text-label-xs text-[#A3A3A6]  flex gap-4 mt-6 md:mt-0'>
                     <a href="/search" className='border w-full md:min-w-[222px] justify-between border-[#f4f4f4] px-4 py-2 rounded-lg flex items-center font-medium '>
                         <span>Search properties</span>
                         <RiSearch2Line size={20} />

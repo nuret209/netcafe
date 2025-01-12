@@ -4,7 +4,7 @@ import MediumCafeCard from './MediumCafeCard'
 const PopularCafes = () => {
   return (
     <div className=''>
-      <h3 className='text-[#191A20] text-xs mb-6'>LATEST PROPERTIES</h3>
+      <h3 className='text-[#191A20] text-label-xs mb-6'>LATEST PROPERTIES</h3>
       <div className='flex flex-wrap gap-4'>
         {Cafes.filter(cafe => cafe.popularNow).map((cafe, i) =>
           <MediumCafeCard

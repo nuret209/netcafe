@@ -67,7 +67,6 @@ const Page = ({ params }: { params: Promise<{ cafename: string }> }) => {
                 numberofVRs={cafe.numberofVRs}
                 locationCity={cafe.location.city}
                 price={cafe.price} key={0} />
-
               <Video videoLink={cafe.videoLink} />
               <Map mapLink={cafe.mapLink} />
               <Similar name={cafe.name} types={cafe.types} />

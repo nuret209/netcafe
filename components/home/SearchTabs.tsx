@@ -130,7 +130,7 @@ const SearchTabs = () => {
                 </span>
                 <div className="grid gap-4 border-b grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))]  overflow-auto  max-h-full pb-16">
                     <div className='m-4'>
-                        <span className='text-[#191A20] text-xs'>Popular</span>
+                        <span className='text-[#191A20] text-label-xs'>Popular</span>
                         <label className="block mt-3 cursor-pointer ">
                             <input type="checkbox" checked={popular} onChange={() => filterSet("", "Popular")} className="sr-only peer" />
                             <div className="relative w-11 h-6 bg-[#ededed] 
@@ -142,14 +142,14 @@ const SearchTabs = () => {
                     </div>
 
                     <div className='m-4'>
-                        <span className='text-[#191A20] text-xs'>Tür</span>
+                        <span className='text-[#191A20] text-label-xs'>Tür</span>
                         <div className='flex flex-wrap gap-2 flex-grow mt-3'>
                             {multiSelectinPages.map((tab, i) =>
                                 <div key={i}
                                     onClick={() => filterSet(tab.name, "Tür")}
                                     className={`border md:border-[#ebebebsetParentCaregoryex-col inline-flex  cursor-pointer p-3 gap-1 rounded-lg ${type.includes(tab.name) ? "bg-[#191a20] text-white" : "text-[#191a20]"}`} >
                                     {<tab.icon />}
-                                    <span className='text-xs'>{tab.name}</span>
+                                    <span className='text-label-xs'>{tab.name}</span>
                                 </div>
                             )}
                         </div>
@@ -157,7 +157,7 @@ const SearchTabs = () => {
                     <Reset />
                     {Tabs.map((t, i) => (
                         <TabGroup onChange={(index) => filterSet(t[index].name, TabTitles[i])} key={i} className='m-4 overflow-auto'>
-                            <span className='text-[#191A20] text-xs'>{TabTitles[i]}</span>
+                            <span className='text-[#191A20] text-label-xs'>{TabTitles[i]}</span>
                             <TabList className='flex flex-wrap gap-2 flex-grow mt-3'>
                                 {t.map((item, j) => (
                                     <Tab className={`outline-none`} key={j}>
@@ -165,7 +165,7 @@ const SearchTabs = () => {
                                             <div
                                                 className={`border md:border-[#ebebebsetParentCaregoryex-col inline-flex  cursor-pointer p-3 rounded-lg ${selected ? "bg-[#191a20] text-white" : "text-[#191a20]"}`} >
 
-                                                <span className='text-xs'>{item.name}</span>
+                                                <span className='text-label-xs'>{item.name}</span>
                                             </div>
                                         )}
                                     </Tab>

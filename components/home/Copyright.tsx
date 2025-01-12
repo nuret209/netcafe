@@ -7,7 +7,7 @@ const Copyright = () => {
                 <Image src={"/images/sitelogo.svg"} alt='logo' width={24} height={24} />
                 wagmigg
             </span>
-            <span className='text-xs flex gap-2'>
+            <span className='text-label-xs flex gap-2'>
                 <a href="#">Privacy Policy</a>
                 <a href="#">Terms of Service</a>
             </span>
