@@ -1,4 +1,4 @@
-import Login_Signup from "@/components/signup/SignUpArea"
+import SignUp from "@/components/signup/SignUp"
 import { Metadata } from 'next';
 import React from 'react'
 export const metadata: Metadata = {
@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 const Page = () => {
   return (
     <>
-     <Login_Signup path="/sign-up" pathName="Sign Up" />
+     <SignUp />
     </>
   );
 }
